@@ -1,0 +1,42 @@
+x= float(input("enter first number:"))
+y= float(input("enter first number:"))
+print(x+y)
+
+fruit="\"custard apple\""
+o= len(fruit)
+print(fruit,"is a ",o ,"letter word")
+
+k=input('enter something:')
+print(k)
+j= len(k)
+print(k,"is a",j,"letter word")
+
+
+
+g= "carrot\n"
+f="\ncucumber"
+# pro coder Jumana
+print(g[0])
+print(g[1])
+print(g[2])
+print(g[3])
+print(g[4])
+print(g[5])
+
+print(f[0])
+print(f[1])
+print(f[2])
+print(f[3])
+print(f[4])
+print(f[5])
+print(f[6])
+print(f[7])
+print(f[8])
+for character in (g,f):
+  print(character)
+
+s="gate smashers "
+print(s[::1])
+
+nm ="Harry"
+print(nm[-4:-2])
