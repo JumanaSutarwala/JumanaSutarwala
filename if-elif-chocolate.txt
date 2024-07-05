@@ -1,0 +1,8 @@
+# CAN U BUY A CHOCOLATE?
+y= int(input ("enter money that u have in your pocket: "))
+if (y<=10):
+  print('you cannot buy a "CHOCOLATE" because u have less money')
+elif (y<=50):
+  print('its ok u can buy a "CHOCOLATE" but cheaper one')
+if (y>50):
+    print('yes definitely u can buy a "CHOCOLATE"')
