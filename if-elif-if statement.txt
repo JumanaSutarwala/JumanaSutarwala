@@ -1,0 +1,8 @@
+
+y= int(input ("ENTER YOUR BUDGET TO BUY A PHONE:  "))
+if (y<=1000):
+  print('you cannot buy a "PHONE" because u have less money')
+elif (y<=5000):
+  print('its ok u can buy a "PHONE" but on EMI')
+elif (y>=20000):
+    print('yes definitely u can buy a "PHONE"')
